@@ -7,7 +7,8 @@ lit2 = lit1
 def add_number_to_list(numList):
     add = input("Enter a number to add to a list: ")
     list1.extend(["%s" % (add)])
-    
+    ooo
+    kkk
 
 
 
