@@ -13,7 +13,6 @@ def split_string(string):
 def join_string(list_string):
     # Join the string based on '-' delimiter
     string = ' '.join(list_string)
-
     return string
 olympics2020_str.split()
 if __name__ == '__main__':
