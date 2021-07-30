@@ -3,7 +3,6 @@
 Lab 2 Variables and Collections: Problem 5
 """
 taekwondo_olympics2020_w49k = {
-
     "Gold": {"Thailand"},
     "Silver": {"Spain"},
     "Bronze": {"Israel","Serbia"}
