@@ -12,10 +12,7 @@ def con_temp():
         except ValueError:
             print("Please enter a valid floating point for the temperature.")
         else:
-
             break
-
-
 if __name__ == '__main__':
     con_temp()
     temp_cel = float(input("Enter a temperature in Celsius: "))
