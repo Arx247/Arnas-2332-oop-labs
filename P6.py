@@ -1,22 +1,14 @@
-# Arnas Oonsadao, 633040233-2
+#Arnas Oonsadao, 633040233-2
 """
 Lab 2 Variables and Collections: Problem 6
 """
-\
-def split_string(string):
-    # Split the string based on space delimiter
-    list_string = string.split('')
-
-    return list_string
-
-
-def join_string(list_string):
-    # Join the string based on '-' delimiter
-    string = ' '.join(list_string)
-    return string
-olympics2020_str.split()
+olympics2020_str = "Badminton: Thailand vs. Great Britain,"\
+                   " Table Tennis: Thailand vs. Japan"
+def text():
+    print("For some Olympics 2020 games of Thai athletes:")
+    a, b, c = olympics2020_str.split(":")
+    d, e, f, g, h, i, j, k, l, m = olympics2020_str.split()
+    print("For %s the game is between"%(a), b.replace("Table Tennis", ""))
+    print("For",b.replace("Thailand vs. Great Britain,", ""), ", the game is between", k, l, m)
 if __name__ == '__main__':
-    m = olympics2020_str.split()
-    new_string = join_string(list_string)
-    print("For some Olympics 2020 games of Thai athletes: ")
-    print((new_string))
+    text()
