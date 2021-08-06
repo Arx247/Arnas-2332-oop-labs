@@ -4,18 +4,17 @@ Lab 3 Loops and Functional Programming Functions : Problem 4
 """
 def letter():
     list_of_letters = list(words)
-    print(f"characters in string are {list_of_letters}")
+    print(f"chr are {list_of_letters}")
 
-def Check_Vow(words):
-    for vowel in 'AaEeIiOoUu':
-        if vowel in words:
-            print(vowel)
+def Check_Vow(words, vowels):
+    final = [each for each in words if each in vowels]
+    print("The entered string is %s and the result of convert a vowel to uppercase is" % words)
+    print(final)
 
 words = input("Enter a string: ")
-#vowels = "AaEeIiOoUu"
-
+updated_words = map(letter, words)
+vowels = "AaEeIiOoUu"
 
 if __name__ == "__main__":
     letter()
-    print("The entered string is %s and the result of convert a vowel to uppercase is" % words)
-    Check_Vow(words)
+    Check_Vow(words, vowels)
