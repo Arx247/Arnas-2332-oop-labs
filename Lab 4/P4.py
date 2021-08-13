@@ -5,8 +5,8 @@ Lab 4 Errors and Exceptions: Problem 4 'Using Debugger'
 def enter_integer():
     sum = 0
     count = 0
-    average = 0
-    while True:
+    average = 0 #add average = 0
+    while True: #use debug
         try:
             n = int(input("Enter an integer:"))
             if n < 0:
@@ -14,7 +14,7 @@ def enter_integer():
             sum = sum + n
             count = count + 1
 
-        except ValueError:
+        except ValueError: #accept any input
             print("Please enter a valid integer")
 
     avg = sum / count
