@@ -47,9 +47,7 @@ def check_operator(OP, n1, n2):
 def get_operator():
     n1 = get_operand("the first")
     n2 = get_operand("the second")
-
     correct_input = False
-    #q = break
     while not correct_input:
 
         try:
