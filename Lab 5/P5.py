@@ -2,10 +2,6 @@
 """
 Lab 5 Functions : Problem 5
 """
-# Arnas Oonsadao, 633040233-2
-"""
-Lab 5 Functions : Problem 5
-"""
 ADD, SUB, MUL, DIV = range(4)
 def flexible_calculator(operator = ADD, format = float, *args):
     #ADD, SUB, MUL, DIV = range(4)
