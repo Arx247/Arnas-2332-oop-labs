@@ -36,6 +36,9 @@ def flexible_calculator(operator = ADD, format = float, *args):
     else:
         raise ValueError("Operator must be ADD,SUB,MUL or DIV")
 
+    for_mat()
+
+def for_mat():
     if format == float:
         result = float(result)
     elif format == int:
