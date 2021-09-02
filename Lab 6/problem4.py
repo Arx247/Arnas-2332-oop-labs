@@ -1,6 +1,6 @@
 # Arnas Oonsadao, 633040233-2
 """
-Lab 4 Errors and Exceptions: Problem 4
+Lab 6 Input and Output: Problem 4 Optional arguments
 """
 import json
 with open("hobbies.json","r") as read_f:

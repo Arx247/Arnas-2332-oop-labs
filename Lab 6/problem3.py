@@ -1,6 +1,6 @@
 # Arnas Oonsadao, 633040233-2
 """
-Lab 4 Errors and Exceptions: Problem 3
+Lab 6 Input and Output: Problem 3
 """
 file_name = input("Enter a file name to read: ")
 with open(f'{file_name}') as f:
