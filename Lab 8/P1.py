@@ -1,3 +1,7 @@
+# Arnas Oonsadao, 633040233-2
+"""
+Lab 8 OOP (Part 2: Encapsulation, Inheritance, and Polymorphism) : Problem 1
+"""
 class Rectangle:
     def __init__(self, x,y):
         self.x = x

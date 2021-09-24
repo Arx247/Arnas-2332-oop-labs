@@ -1,3 +1,7 @@
+# Arnas Oonsadao, 633040233-2
+"""
+Lab 8 OOP (Part 2: Encapsulation, Inheritance, and Polymorphism) : Problem 3
+"""
 class Pet:
     def __init__(self, name):
         self.name = name
@@ -7,8 +11,6 @@ class Pet:
 
     def move(self):
         print("moving ...")
-
-
 
 class Cat:
     def __init__(self, name, owner, color):
